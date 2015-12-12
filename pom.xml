@@ -4,13 +4,14 @@
     <groupId>desafio.geofusion</groupId>
     <artifactId>splashpage</artifactId>
     <packaging>war</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>splashpage Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <spring.version>4.2.3.RELEASE</spring.version>
         <jetty.version>9.3.6.v20151106</jetty.version>
+        <jersey.version>1.19</jersey.version>
     </properties>
 
     <dependencies>
@@ -26,11 +27,17 @@
             <version>${spring.version}</version>
         </dependency>
 
-
+        <!-- DEPENDENCIAS DO JERSEY -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>1.8</version>
+            <version>${jersey.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>${jersey.version}</version>
         </dependency>
 
 

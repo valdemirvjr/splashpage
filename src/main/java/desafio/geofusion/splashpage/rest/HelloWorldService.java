@@ -14,7 +14,6 @@ public class HelloWorldService
     {
         String output = "Jersey say: " + msg;
 
-        return Response.status(200).entity(output).build();
+        return Response.status(Response.Status.OK).entity(output).build();
     }
-
 }
