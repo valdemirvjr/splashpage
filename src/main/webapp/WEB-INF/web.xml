@@ -5,7 +5,7 @@
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
     
-    <servlet>
+    <!--<servlet>
         <servlet-name>jersey-servlet</servlet-name>
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
         
@@ -19,5 +19,5 @@
     <servlet-mapping>
         <servlet-name>jersey-servlet</servlet-name>
         <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 </web-app>

@@ -3,7 +3,12 @@ package desafio.geofusion.splashpage.entity;
 public class User
 {
     private String name;
+
     private String email;
+
+    private String gender;
+
+    private Short age;
 
     public String getName()
     {
@@ -23,5 +28,25 @@ public class User
     public void setEmail(String email)
     {
         this.email = email;
+    }
+
+    public String getGender()
+    {
+        return gender;
+    }
+
+    public void setGender(String gender)
+    {
+        this.gender = gender;
+    }
+
+    public Short getAge()
+    {
+        return age;
+    }
+
+    public void setAge(Short age)
+    {
+        this.age = age;
     }
 }
