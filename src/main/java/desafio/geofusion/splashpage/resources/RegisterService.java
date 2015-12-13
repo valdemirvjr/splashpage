@@ -1,8 +1,15 @@
 package desafio.geofusion.splashpage.resources;
 
-/**
- * Created by luffy on 12/13/15.
- */
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+
+@Path("/register")
 public class RegisterService
 {
+    @POST
+    public Response registerEmail()
+    {
+        return Response.status(Response.Status.OK).build();
+    }
 }

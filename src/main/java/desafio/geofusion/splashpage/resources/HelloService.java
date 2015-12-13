@@ -17,7 +17,7 @@ public class HelloService
     {
         String response = "Hello, " + name;
 
-        return Response.status(Response.Status.OK).entity(response).build();
+        return Response.status(Response.Status.OK).build();
     }
 
 }

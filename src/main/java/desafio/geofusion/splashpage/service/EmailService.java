@@ -5,6 +5,7 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 @Service
 public class EmailService
@@ -15,6 +16,12 @@ public class EmailService
     @Async
     public void sendMail(String toAddress, String fromAddress, String subject, String msgBody)
     {
+        if(StringUtils.isEmpty(toAddress) || StringUtils.isEmpty(fromAddress)
+                || StringUtils.isEmpty(subject) || StringUtils.isEmpty(msgBody))
+        {
+            throw new IllegalArgumentException();
+        }
+
         SimpleMailMessage feedbackMail = new SimpleMailMessage();
         feedbackMail.setTo(toAddress);
         feedbackMail.setFrom(fromAddress);

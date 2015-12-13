@@ -1,8 +1,8 @@
 package desafio.geofusion.splashpage.resources;
 
-/**
- * Created by luffy on 12/13/15.
- */
+import javax.ws.rs.Path;
+
+@Path("/feedback")
 public class FeedbackService
 {
 }
