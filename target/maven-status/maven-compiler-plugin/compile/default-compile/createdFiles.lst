@@ -1,4 +1,7 @@
-desafio/geofusion/splashpage/entity/User.class
-desafio/geofusion/splashpage/entity/UserFeedback.class
+desafio/geofusion/splashpage/resources/HelloService.class
+desafio/geofusion/splashpage/resources/FeedbackService.class
+desafio/geofusion/splashpage/resources/RegisterService.class
 desafio/geofusion/splashpage/service/EmailService.class
-desafio/geofusion/splashpage/rest/HelloService.class
+desafio/geofusion/splashpage/entities/UserFeedback.class
+desafio/geofusion/splashpage/resources/ReportService.class
+desafio/geofusion/splashpage/entities/User.class

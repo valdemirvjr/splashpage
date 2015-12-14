@@ -12,12 +12,12 @@
         <java.version>1.8</java.version>
         <spring.version>4.2.3.RELEASE</spring.version>
         <jetty.version>9.3.6.v20151106</jetty.version>
-        <jersey.version>1.19</jersey.version>
+        <jersey2.version>2.22.1</jersey2.version>
         <log4j.version>2.4.1</log4j.version>
     </properties>
 
     <dependencies>
-        <!-- DEPENDENCIAS DO SPRING -->
+        <!-- SPRING -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -39,17 +39,28 @@
             <version>${spring.version}</version>
         </dependency>
 
-        <!-- DEPENDENCIAS DO JERSEY -->
+        <!-- JAX-RS -->
         <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-server</artifactId>
-            <version>${jersey.version}</version>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.0.1</version>
         </dependency>
 
+        <!-- JERSEY -->
         <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-json</artifactId>
-            <version>${jersey.version}</version>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>${jersey2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-server</artifactId>
+            <version>${jersey2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>${jersey2.version}</version>
         </dependency>
 
         <!-- Jersey + Spring -->
@@ -82,7 +93,7 @@
         </dependency>-->
 
 
-        <!-- DEPENDENCIAS DO LOG4J -->
+        <!-- LOG4J -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
@@ -142,8 +153,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>

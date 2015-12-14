@@ -13,6 +13,12 @@ public class EmailService
     @Autowired
     private MailSender mailSender;
 
+    private String buildEmailMsg()
+    {
+        return "";
+
+    }
+
     @Async
     public void sendMail(String toAddress, String fromAddress, String subject, String msgBody)
     {
@@ -30,5 +36,4 @@ public class EmailService
 
         mailSender.send(feedbackMail);
     }
-
 }
