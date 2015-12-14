@@ -1,4 +1,4 @@
-package desafio.geofusion.splashpage.service;
+package desafio.geofusion.splashpage.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailSender;

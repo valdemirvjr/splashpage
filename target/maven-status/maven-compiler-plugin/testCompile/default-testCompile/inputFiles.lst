@@ -1,1 +1,2 @@
-/home/luffy/Projects/java/splashpage/src/test/java/desafio/geofusion/splashpage/service/EmailServiceTest.java
+/home/luffy/Projects/java/splashpage/src/test/java/desafio/geofusion/splashpage/integration/EmailServiceIntegrationTest.java
+/home/luffy/Projects/java/splashpage/src/test/java/desafio/geofusion/splashpage/services/EmailServiceTest.java

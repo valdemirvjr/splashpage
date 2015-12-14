@@ -38,6 +38,17 @@
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.22.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.ext:jersey-spring3:2.22.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:config-types:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-core:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-config:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet:tiger-types:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:bean-validator:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-runlevel:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:class-model:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.4.0-b31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:spring-bridge:2.4.0-b31" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: javax.mail:mail:1.4.7" level="project" />
