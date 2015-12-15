@@ -1,11 +1,10 @@
 package desafio.geofusion.splashpage.resources;
 
-import desafio.geofusion.splashpage.services.EmailService;
+import desafio.geofusion.splashpage.services.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
@@ -15,7 +14,7 @@ import javax.ws.rs.core.Response;
 public class RegisterResource
 {
     @Autowired
-    private EmailService emailService;
+    private RegisterService registerService;
 
     @POST
     @Consumes({"application/json"})
