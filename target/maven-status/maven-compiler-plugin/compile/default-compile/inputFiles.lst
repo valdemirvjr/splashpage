@@ -1,7 +1,6 @@
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/RegisterService.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/ReportService.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/HelloService.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/User.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/UserFeedback.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/FeedbackService.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/RegisterResource.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/ReportResource.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/services/EmailService.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/FeedbackResource.java

@@ -12,7 +12,7 @@ import javax.ws.rs.core.Response;
 
 @Component
 @Path("/register")
-public class RegisterService
+public class RegisterResource
 {
     @Autowired
     private EmailService emailService;

@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 @Path("/report")
-public class ReportService
+public class ReportResource
 {
     @GET
     public Response getUserFeedbackReport()

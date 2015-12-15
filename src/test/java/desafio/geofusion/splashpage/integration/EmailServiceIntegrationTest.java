@@ -20,8 +20,8 @@ public class EmailServiceIntegrationTest
     @Test
     public void shouldSendMailToMe()
     {
-        String fromAddress = "valdemirvjr@gmail.com\"";
-        String toAddress = "valdemirvjr@gmail.com\"";
+        String fromAddress = "valdemirvjr@gmail.com";
+        String toAddress = "valdemirvjr@gmail.com";
         String subject = "test mail";
         String msgBody = "test mail";
 
