@@ -4,7 +4,7 @@
     <groupId>desafio.geofusion</groupId>
     <artifactId>splashpage</artifactId>
     <packaging>war</packaging>
-    <version>0.0.2</version>
+    <version>0.1.0</version>
     <name>splashpage Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
@@ -68,9 +68,29 @@
             <artifactId>jersey-server</artifactId>
             <version>${jersey2.version}</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.glassfish.jersey.core</groupId>-->
+            <!--<artifactId>jersey-client</artifactId>-->
+            <!--<version>${jersey2.version}</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>org.glassfish.jersey.core</groupId>
-            <artifactId>jersey-client</artifactId>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>${jersey2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-processing</artifactId>
+            <version>${jersey2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-multipart</artifactId>
+            <version>${jersey2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-sse</artifactId>
             <version>${jersey2.version}</version>
         </dependency>
 
