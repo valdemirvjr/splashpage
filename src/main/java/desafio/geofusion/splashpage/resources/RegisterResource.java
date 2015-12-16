@@ -24,17 +24,17 @@ public class RegisterResource
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response registerUserEmail(UserInfo userInfo)
+    public Response registerUserEmail(String jsonUserInfo)
     {
-        Response response = Response.status(Response.Status.OK).entity("it works").build();
+        Response response = Response.status(Response.Status.OK).entity("Registro efetuado com sucesso").build();
 
-        if(userInfo == null)
+        if (jsonUserInfo == null || jsonUserInfo.isEmpty())
         {
+            LOGGER.error("Dados recebidos invalidos: " + jsonUserInfo);
             response = Response.status(Response.Status.BAD_REQUEST).entity("dados nao enviados").build();
-        }
-        else
+        } else
         {
-            LOGGER.info("Dados recebidos: " + userInfo);
+            LOGGER.info("Dados recebidos: " + jsonUserInfo);
         }
 
         return response;

@@ -4,7 +4,7 @@
     <groupId>desafio.geofusion</groupId>
     <artifactId>splashpage</artifactId>
     <packaging>war</packaging>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <name>splashpage Maven Webapp</name>
     <url>http://maven.apache.org</url>
 

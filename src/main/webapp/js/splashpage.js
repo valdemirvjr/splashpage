@@ -1,12 +1,15 @@
-function submitForm(formName, resourceUrl, httpMethod, dataType, contentType)
-{
-    var formData = JSON.stringify($("#"+formName).serializeArray());
-
-    $.ajax({
-        type: httpMethod,
-        url: resourceUrl,
-        data: formData,
-        dataType: "json",
-        contentType: "application/json"
+$(function(){
+    $('button#register').click(function(){
+        $.ajax({
+            type: "POST",
+            url: "/splashpage/rest/register",
+            data: $('form#registerForm').serialize(),
+            success: function(data, textStatus, jqXHR){
+                alert(jqXHR.responseText);
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(jqXHR.responseText);
+            },
+        });
     });
-}
+});
