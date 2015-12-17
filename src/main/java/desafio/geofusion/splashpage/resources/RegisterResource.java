@@ -23,18 +23,30 @@ public class RegisterResource
     private RegisterService registerService;
 
     @POST
-    @Consumes(MediaType.APPLICATION_JSON)
+//    @Consumes(MediaType.APPLICATION_JSON)
     public Response registerUserEmail(String jsonUserInfo)
     {
         Response response = Response.status(Response.Status.OK).entity("Registro efetuado com sucesso").build();
 
         if (jsonUserInfo == null || jsonUserInfo.isEmpty())
         {
-            LOGGER.error("Dados recebidos invalidos: " + jsonUserInfo);
-            response = Response.status(Response.Status.BAD_REQUEST).entity("dados nao enviados").build();
-        } else
+            LOGGER.error("Dados nao recebidos");
+            response = Response.status(Response.Status.BAD_REQUEST).entity("dados invalidos").build();
+        }
+        else
         {
-            LOGGER.info("Dados recebidos: " + jsonUserInfo);
+            LOGGER.info("dados recebidos: " + jsonUserInfo);
+
+            UserInfo userInfo = new UserInfo();
+            String[] userAttr = jsonUserInfo.split("&");
+            String[] email = userAttr[0].split("=");
+            String[] name = userAttr[1].split("=");
+            userInfo.setEmail(email[1]);
+            userInfo.setName(name[1]);
+
+            LOGGER.info(userInfo);
+
+            registerService.registerEmail(userInfo);
         }
 
         return response;

@@ -1,7 +1,10 @@
+desafio/geofusion/splashpage/dao/GenericDAOImpl.class
 desafio/geofusion/splashpage/resources/RegisterResource.class
 desafio/geofusion/splashpage/resources/FeedbackResource.class
 desafio/geofusion/splashpage/entities/UserInfo.class
 desafio/geofusion/splashpage/services/EmailService.class
 desafio/geofusion/splashpage/entities/UserFeedback.class
 desafio/geofusion/splashpage/services/RegisterService.class
-desafio/geofusion/splashpage/resources/ReportResource.class
+desafio/geofusion/splashpage/dao/GenericDAO.class
+desafio/geofusion/splashpage/dao/UserInfoDAOImpl.class
+desafio/geofusion/splashpage/dao/UserInfoDAO.class
