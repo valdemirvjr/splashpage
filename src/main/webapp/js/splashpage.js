@@ -20,7 +20,7 @@ $(function(){
             type: "POST",
             url: "/splashpage/rest/register",
 //            data: JSON.stringify($('form#registerForm').serializeArray()),
-            data: $('form#registerForm').serialize(),
+            data: $('form#registerForm').serialize().replace('%40', '@'),
             success: function(data, textStatus, jqXHR){
                 alert(jqXHR.responseText);
             },
