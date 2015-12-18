@@ -2,17 +2,14 @@ package desafio.geofusion.splashpage.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
-import java.io.Serializable;
 
 @Entity
-public class UserFeedback implements Serializable
+public class Question
 {
     @Id
     private Integer id;
 
-    @OneToOne
-    private UserInfo userInfo;
+    private String questionText;
 
     public Integer getId()
     {
@@ -24,13 +21,13 @@ public class UserFeedback implements Serializable
         this.id = id;
     }
 
-    public UserInfo getUserInfo()
+    public String getQuestionText()
     {
-        return userInfo;
+        return questionText;
     }
 
-    public void setUserInfo(UserInfo userInfo)
+    public void setQuestionText(String questionText)
     {
-        this.userInfo = userInfo;
+        this.questionText = questionText;
     }
 }

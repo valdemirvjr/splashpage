@@ -27,13 +27,20 @@ public class RegisterService
         userInfoDAO.create(userInfo);
 
         // envia email com link para feedback
-        emailService.sendMail(userInfo.getEmail(), "valdemirvjr@gmail.com", "Obrigado por se registrar", buildEmailMsg(userInfo.getName()));
+        emailService.sendMail(userInfo.getEmail(), "strawhatmdluffy@gmail.com", "Obrigado por se registrar",
+                buildEmailMsg(userInfo));
     }
 
-    private String buildEmailMsg(String name)
+    private String buildEmailMsg(UserInfo userInfo)
     {
-        String msg = "Obrigado por se registrar, " + name + ".\n link para form de feedback";
+        String msg = String.format("Obrigado por se registrar, %s.\n link para form de feedback: s",
+                userInfo.getName(), generateFeedbackFormLink(userInfo.getEmail()));
 
         return msg;
+    }
+
+    private String generateFeedbackFormLink(String email)
+    {
+        return "";
     }
 }

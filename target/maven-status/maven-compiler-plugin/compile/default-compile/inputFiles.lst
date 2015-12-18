@@ -1,10 +1,13 @@
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/controller/ReportController.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/RegisterResource.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/QuestionOption.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/Question.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/services/EmailService.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/FeedbackResource.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/services/RegisterService.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/dao/UserInfoDAOImpl.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/dao/GenericDAO.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/entities/UserFeedback.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/RegisterResource.java
+/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/controller/FeedbackFormController.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/dao/UserInfoDAO.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/services/EmailService.java
-/home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/resources/FeedbackResource.java
 /home/luffy/Projects/java/splashpage/src/main/java/desafio/geofusion/splashpage/dao/GenericDAOImpl.java
