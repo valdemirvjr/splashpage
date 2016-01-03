@@ -19,7 +19,6 @@ $(function(){
         $.ajax({
             type: "POST",
             url: "/splashpage/rest/register",
-//            data: $('form#registerForm').serialize().replace('%40', '@'),
             contentType: "application/json",
             dataType: "json",
             data: JSON.stringify($('form#registerForm').serializeObject()),

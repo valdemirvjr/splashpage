@@ -26,18 +26,18 @@ public class RegisterResource
     @Consumes(MediaType.APPLICATION_JSON)
     public Response registerUserEmail(UserInfo userInfo)
     {
-        Response response = null;
+        Response response = Response.status(Response.Status.OK).entity("Registro efetuado com sucesso").build();
 
         if(userInfo != null)
         {
             LOGGER.info("Dados recebidos e convertidos: " + userInfo);
 
             registerService.registerEmail(userInfo);
-
-            response = Response.status(Response.Status.OK).entity("Registro efetuado com sucesso").build();
         }
         else
         {
+            LOGGER.error("Dados recebidos invalidos: " + userInfo);
+
             response = Response.status(Response.Status.BAD_REQUEST).entity("dados invalidos").build();
         }
 
