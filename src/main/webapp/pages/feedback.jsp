@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -45,125 +46,24 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <form method="post">
-                    <div class="form-group ">
-                        <label class="control-label requiredField">
-                            Qual a sua expectativa em rela&ccedil;&atilde;o ao servi&ccedil;o?
-       <span class="asteriskField">
-        *
-       </span>
-                        </label>
-                        <div class="">
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio" type="radio"
-                                           value="Muito boa (&eacute; o que precisava ha tempos)"/>
-                                    Muito boa (&eacute; o que precisava ha tempos)
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio" type="radio" value="Boa"/>
-                                    Boa
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio" type="radio"
-                                           value="N&atilde;o acho que o mercado precise de um servi&ccedil;o desses"/>
-                                    N&atilde;o acho que o mercado precise de um servi&ccedil;o desses
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio" type="radio" value="N&atilde;o sei"/>
-                                    N&atilde;o sei
-                                </label>
+                    <c:forEach items="${feedbackQuestions}" var="question">
+                        <div class="form-group">
+                            <label class="control-label requiredField">
+                                ${question.questionText}
+                                <span class="asteriskField">*</span>
+                            </label>
+                            <div class="">
+                                <c:forEach items="${question.options}" var="option">
+                                    <div class="radio">
+                                        <label class="radio">
+                                            <input name="${question.id}" type="radio" value="${option.id}"/>
+                                            ${option.optionText}
+                                        </label>
+                                    </div>
+                                </c:forEach>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group ">
-                        <label class="control-label requiredField">
-                            Em quanto tempo voc&ecirc; espera que o servi&ccedil;o esteja dispon&iacute;vel?
-       <span class="asteriskField">
-        *
-       </span>
-                        </label>
-                        <div class="">
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio1" type="radio" value="3 meses"/>
-                                    3 meses
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio1" type="radio" value="6 meses"/>
-                                    6 meses
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio1" type="radio" value="12 meses"/>
-                                    12 meses
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group ">
-                        <label class="control-label requiredField">
-                            Voc&ecirc; gostaria de uma vers&atilde;o que considere tamb&eacute;m dados sobre transporte,
-                            educa&ccedil;&atilde;o, violencia... De fontes alternativas?
-       <span class="asteriskField">
-        *
-       </span>
-                        </label>
-                        <div class="">
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio2" type="radio"
-                                           value="Sim (as informa&ccedil;&otilde;es fornecidas pelo governo s&atilde;o maquiadas)"/>
-                                    Sim (as informa&ccedil;&otilde;es fornecidas pelo governo s&atilde;o maquiadas)
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio2" type="radio"
-                                           value="N&atilde;o (prefiro contar apenas com dados oficiais do governo))"/>
-                                    N&atilde;o (prefiro contar apenas com dados oficiais do governo))
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group ">
-                        <label class="control-label requiredField">
-                            Quais os meios que voc&ecirc; usa hoje para obter informa&ccedil;&otilde;es e encontrar um
-                            im&oacute;vel em uma cidade pouco conhecida?
-       <span class="asteriskField">
-        *
-       </span>
-                        </label>
-                        <div class="">
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio3" type="radio" value="Imobili&aacute;ria"/>
-                                    Imobili&aacute;ria
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio3" type="radio" value="Sites de venda/aluga imovel"/>
-                                    Sites de venda/aluga imovel
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="radio">
-                                    <input name="radio3" type="radio"
-                                           value="Familia/amigos que conhecem um pouco sobre o local"/>
-                                    Familia/amigos que conhecem um pouco sobre o local
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                    </c:forEach>
                     <div class="form-group">
                         <div>
                             <button class="btn btn-primary " name="submit" type="submit">

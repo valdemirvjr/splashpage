@@ -38,6 +38,8 @@ public class DatabasePopulatorService
         {
             questionDao.create(question);
         }
+
+        LOGGER.info("Base de dados de questoes de feedback populada.");
     }
 
     private List<Question> getFeedbackQuestions()
