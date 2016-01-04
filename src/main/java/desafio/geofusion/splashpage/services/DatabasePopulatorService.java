@@ -32,18 +32,11 @@ public class DatabasePopulatorService
     @PostConstruct
     public void populate()
     {
+        LOGGER.info("Populando base de dados com as questoes de feedback...");
+
         for(Question question : getFeedbackQuestions())
         {
             questionDao.create(question);
-        }
-
-        LOGGER.info("Busca de todas as question na base");
-
-        Collection<Question> questions = questionDao.readAll();
-
-        for(Question question : questions)
-        {
-            LOGGER.info(question);
         }
     }
 
