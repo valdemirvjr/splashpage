@@ -1,10 +1,7 @@
 package desafio.geofusion.splashpage.entities;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class QuestionOption
@@ -17,7 +14,8 @@ public class QuestionOption
 
     private Integer votes;
 
-//    private Question question;
+    @ManyToOne
+    private Question question;
 
     public Integer getId()
     {
@@ -49,13 +47,24 @@ public class QuestionOption
         this.votes = votes;
     }
 
-//    public Question getQuestion()
-//    {
-//        return question;
-//    }
-//
-//    public void setQuestion(Question question)
-//    {
-//        this.question = question;
-//    }
+    public Question getQuestion()
+    {
+        return question;
+    }
+
+    public void setQuestion(Question question)
+    {
+        this.question = question;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "QuestionOption{" +
+                "id=" + id +
+                ", optionText='" + optionText + '\'' +
+                ", votes=" + votes +
+                ", question=" + question +
+                '}';
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Configuration status="INFO" name="splashpage-config">
     <Properties>
-        <Property name="LOG_DIR">/home/luffy/logs</Property>
+        <Property name="LOG_DIR">/var/log/splashpage</Property>
         <Property name="ARCHIVE">${LOG_DIR}/archive</Property>
         <Property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%-5level] %logger{36} - %msg%n</Property>
     </Properties>
