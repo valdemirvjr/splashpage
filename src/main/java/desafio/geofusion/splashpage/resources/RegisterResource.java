@@ -27,7 +27,7 @@ public class RegisterResource
     @Consumes(MediaType.APPLICATION_JSON)
     public Response registerUserEmail(UserInfo userInfo)
     {
-        Response response = Response.status(Response.Status.OK).entity("Registro efetuado com sucesso").build();
+        Response response = Response.status(Response.Status.CREATED).entity("Registro efetuado com sucesso").build();
 
         if(userInfo != null)
         {
