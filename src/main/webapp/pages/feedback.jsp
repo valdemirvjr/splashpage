@@ -45,7 +45,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <form method="post">
+                <form method="post" id="feedbackForm">
                     <c:forEach items="${feedbackQuestions}" var="question">
                         <div class="form-group">
                             <label class="control-label requiredField">
@@ -76,7 +76,6 @@
         </div>
     </div>
 </div>
-
 <script src="js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
