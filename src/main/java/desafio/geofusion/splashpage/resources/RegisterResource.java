@@ -33,7 +33,14 @@ public class RegisterResource
         {
             LOGGER.info("Dados recebidos e convertidos: " + userInfo);
 
-            registerService.registerEmail(userInfo);
+            if(registerService.isUserAlreadyRegistered(userInfo.getEmail()))
+            {
+                response = Response.status(Response.Status.NOT_MODIFIED).entity("email ja registrado").build();
+            }
+            else
+            {
+                registerService.registerEmail(userInfo);
+            }
         }
         else
         {
@@ -45,9 +52,4 @@ public class RegisterResource
         return response;
     }
 
-    @GET
-    public String getHello()
-    {
-        return "Hello World";
-    }
 }

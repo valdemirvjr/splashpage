@@ -1,14 +1,16 @@
 package desafio.geofusion.splashpage.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = UserInfo.FIND_USERINFO_BY_EMAIL, query = "select u from UserInfo u where u.email = :email")
+})
 public class UserInfo implements Serializable
 {
+    public static final String FIND_USERINFO_BY_EMAIL = "UserInfo.findByEmail";
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;

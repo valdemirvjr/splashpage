@@ -40,4 +40,11 @@ public class RegisterService
     {
         return "";
     }
+
+    public boolean isUserAlreadyRegistered(String email)
+    {
+        UserInfo userInfo = userInfoDAO.findByEmail(email);
+
+        return (userInfo != null);
+    }
 }

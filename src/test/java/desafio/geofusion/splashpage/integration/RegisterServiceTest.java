@@ -1,7 +1,9 @@
-package desafio.geofusion.splashpage.services;
+package desafio.geofusion.splashpage.integration;
 
 import desafio.geofusion.splashpage.dao.UserInfoDAO;
 import desafio.geofusion.splashpage.entities.UserInfo;
+import desafio.geofusion.splashpage.services.EmailService;
+import desafio.geofusion.splashpage.services.RegisterService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
