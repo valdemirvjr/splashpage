@@ -1,4 +1,4 @@
-package desafio.geofusion.splashpage.integration;
+package desafio.geofusion.splashpage.services;
 
 import desafio.geofusion.splashpage.dao.UserInfoDAO;
 import desafio.geofusion.splashpage.entities.UserInfo;
@@ -42,8 +42,6 @@ public class RegisterServiceTest
         userInfo.setEmail("strawhatmdluffy@gmail.com");
 
         registerService.registerEmail(userInfo);
-
-
     }
 
 }

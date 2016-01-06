@@ -15,7 +15,7 @@ public class UserInfoDAOImpl extends GenericDAOImpl<UserInfo, Integer> implement
     @Override
     public UserInfo findByEmail(String email)
     {
-        Query findByEmailQuery = entityManager.createNamedQuery(UserInfo.FIND_USERINFO_BY_EMAIL);
+        Query findByEmailQuery = entityManager.createNamedQuery(UserInfo.FIND_BY_EMAIL);
         findByEmailQuery.setParameter("email", email);
 
         try
