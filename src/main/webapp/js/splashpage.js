@@ -31,3 +31,21 @@ $(function(){
         });
     });
 });
+
+$(function(){
+    $('button#feedback').click(function(){
+        $.ajax({
+            type: "POST",
+            url: "/splashpage/rest/feedback",
+            contentType: "application/json",
+            dataType: "json",
+            data: JSON.stringify($('form#feedbackForm').serializeObject()),
+            success: function(data, textStatus, jqXHR){
+                alert(jqXHR.responseText);
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(jqXHR.responseText);
+            },
+        });
+    });
+});

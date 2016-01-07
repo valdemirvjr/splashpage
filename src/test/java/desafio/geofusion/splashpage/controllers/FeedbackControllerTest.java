@@ -36,7 +36,7 @@ public class FeedbackControllerTest
     @Mock
     private FeedbackService feedbackServiceMock;
 
-    @InjectMocks
+//    @InjectMocks
     @Autowired
     private WebApplicationContext webApplicationContext;
 

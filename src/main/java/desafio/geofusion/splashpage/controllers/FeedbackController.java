@@ -2,6 +2,8 @@ package desafio.geofusion.splashpage.controllers;
 
 import desafio.geofusion.splashpage.entities.Question;
 import desafio.geofusion.splashpage.services.FeedbackService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,6 +15,8 @@ import java.util.Collection;
 @Controller
 public class FeedbackController
 {
+    private static final Logger LOGGER = LogManager.getLogger(FeedbackController.class);
+
     @Autowired
     private FeedbackService feedbackService;
 
