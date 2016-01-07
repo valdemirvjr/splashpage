@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Wed Jan 06 00:29:12 BRST 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.7.1.1 - (1040133): instance a816c00e-0152-14c4-43f2-000004ee7590 
+Wed Jan 06 23:19:31 BRST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.7.1.1 - (1040133): instance a816c00e-0152-19aa-d30a-000003caca18 
 on database directory memory:/home/luffy/Projects/java/splashpage/splashpage  with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
 Loaded from file:/home/luffy/.m2/repository/org/apache/derby/derby/10.7.1.1/derby-10.7.1.1.jar
 java.vendor=Oracle Corporation

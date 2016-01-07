@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf36b53-9588-4942-b9d8-4fa7b537994a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/AppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/WebAppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/integration/RegisterServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/RegisterServiceTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java" afterPath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/UserInfoDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/UserInfoDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java" afterPath="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splashpage.iml" afterPath="$PROJECT_DIR$/splashpage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java" />
     </list>
     <ignored path="splashpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +33,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.666666">
-              <caret line="200" column="39" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,17 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.37037">
-              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -65,8 +53,8 @@
       <file leaf-file-name="FeedbackControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4695652">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.66938776">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/RegisterServiceTest.java">
+      <file leaf-file-name="EmailServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/EmailServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="70" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="70" />
+              <caret line="17" column="70" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -106,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/js/sendForm.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/submitForm.js" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/services/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/GenericDAO.java" />
@@ -143,7 +130,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/resources/FeedbackResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/resources/RegisterServiceTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/UserInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/resources/RegisterResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/services/RegisterService.java" />
@@ -156,6 +142,8 @@
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/AppContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/WebAppContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/WebInitializer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java" />
       </list>
     </option>
@@ -235,13 +223,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="splashpage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splashpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.hamcrest:hamcrest-all:1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamcrest-all-1.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splashpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.hamcrest:hamcrest-all:1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamcrest-all-1.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamcrest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -726,8 +758,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -770,33 +802,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailServiceTest.shouldSendMail">
-    <configuration default="false" name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="desafio.geofusion.splashpage.resources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="splashpage" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="desafio.geofusion.splashpage.resources" />
-      <option name="MAIN_CLASS_NAME" value="desafio.geofusion.splashpage.resources.RegisterResourceTest" />
-      <option name="METHOD_NAME" value="shouldReceiveCreatedForNewUserRegister" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView">
     <configuration default="false" name="RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -888,6 +894,32 @@
       <option name="PACKAGE_NAME" value="desafio.geofusion.splashpage.services" />
       <option name="MAIN_CLASS_NAME" value="desafio.geofusion.splashpage.services.EmailServiceTest" />
       <option name="METHOD_NAME" value="shouldSendMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="desafio.geofusion.splashpage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="splashpage" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="desafio.geofusion.splashpage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="desafio.geofusion.splashpage.controllers.FeedbackControllerTest" />
+      <option name="METHOD_NAME" value="shouldAddFeedbackQuestionToModelAndRenderFeedbackView" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1087,19 +1119,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldThrowExceptionForNullParam" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldSendMail" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldThrowExceptionForNullParam" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldSendMail" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldSendMail" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldThrowExceptionForNullParam" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldSendMail" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmailServiceTest.shouldThrowExceptionForNullParam" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" />
       </list>
     </recent_temporary>
   </component>
@@ -1124,35 +1156,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailServiceTest_shouldSendMail - 2016.01.06 at 00h 28m 47s.xml">
-      <configuration name="EmailServiceTest.shouldSendMail" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 22h 50m 11s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailServiceTest_shouldSendMail - 2016.01.06 at 00h 29m 15s.xml">
-      <configuration name="EmailServiceTest.shouldSendMail" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 22h 50m 55s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailServiceTest_shouldThrowExceptionForNullParam - 2016.01.06 at 00h 15m 46s.xml">
-      <configuration name="EmailServiceTest.shouldThrowExceptionForNullParam" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 22h 56m 15s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest - 2016.01.05 at 23h 13m 20s.xml">
-      <configuration name="RegisterResourceTest" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 01m 00s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveCreatedForNewUserRegister - 2016.01.05 at 19h 17m 46s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 01m 45s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveCreatedForNewUserRegister - 2016.01.05 at 19h 21m 10s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 11m 53s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveCreatedForNewUserRegister - 2016.01.05 at 19h 24m 29s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 15m 42s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveCreatedForNewUserRegister - 2016.01.05 at 23h 11m 19s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 18m 10s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveCreatedForNewUserRegister - 2016.01.05 at 23h 11m 47s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveCreatedForNewUserRegister" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 19m 00s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterResourceTest_shouldReceiveNotModifiedForExistenteUser - 2016.01.05 at 23h 12m 30s.xml">
-      <configuration name="RegisterResourceTest.shouldReceiveNotModifiedForExistenteUser" configurationId="JUnit" />
+    <history-entry file="FeedbackControllerTest_shouldAddFeedbackQuestionToModelAndRenderFeedbackView - 2016.01.06 at 23h 19m 34s.xml">
+      <configuration name="FeedbackControllerTest.shouldAddFeedbackQuestionToModelAndRenderFeedbackView" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1165,11 +1197,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42256638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3340708" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42809734" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3340708" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1179,6 +1210,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1221,63 +1253,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/dao/QuestionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33962265">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derby.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8211679">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15652174">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09391304">
@@ -1313,13 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16393442">
           <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/feedback-questions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0626087">
-          <caret line="2" column="236" selection-start-line="2" selection-start-column="236" selection-end-line="2" selection-end-column="236" />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5304348">
           <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35181236">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34541577">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71836734">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6923075">
           <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6153846">
           <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62857145">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3510204">
           <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3510204">
           <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33265308">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71836734">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,8 +1436,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding>
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1265#1266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1523,18 +1479,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/EmailServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1563,42 +1508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.666666">
-          <caret line="200" column="39" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/WebAppContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/AppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0626087">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.37037">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -1611,26 +1524,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/RegisterServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="70" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1016#1017#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/feedback-questions.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0626087">
+          <caret line="2" column="236" selection-start-line="2" selection-start-column="236" selection-end-line="2" selection-end-column="236" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19672132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19672132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/Is.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19672132">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9836066">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7307692">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/entities/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036363635">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30769232">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/controllers/FeedbackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/desafio/geofusion/splashpage/configurations/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07272727">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.3.RELEASE/spring-test-4.2.3.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35181236">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#3631#3632#0" expanded="true" />
+            <element signature="e#3680#3681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/services/EmailServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35129312">
+          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+          <folding>
+            <element signature="e#3555#3556#0" expanded="true" />
+            <element signature="e#3615#3616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/desafio/geofusion/splashpage/controllers/FeedbackControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4695652">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.66938776">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
