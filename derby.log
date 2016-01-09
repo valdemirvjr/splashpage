@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Fri Jan 08 23:06:11 BRST 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.7.1.1 - (1040133): instance a816c00e-0152-23eb-562e-000007d66e88 
-on database directory memory:/home/luffy/Projects/java/splashpage/splashpage  with class loader WebAppClassLoader=Archetype Created Web Application@7b18658a 
+Sat Jan 09 02:31:37 BRST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.7.1.1 - (1040133): instance a816c00e-0152-24a7-6b70-00000cdd84e0 
+on database directory memory:/home/luffy/Projects/java/splashpage/splashpage  with class loader WebAppClassLoader=Archetype Created Web Application@7c588adc 
 Loaded from file:/home/luffy/.m2/repository/org/apache/derby/derby/10.7.1.1/derby-10.7.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_51-b16
