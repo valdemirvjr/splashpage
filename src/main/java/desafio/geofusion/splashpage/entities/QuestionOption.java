@@ -4,8 +4,13 @@ package desafio.geofusion.splashpage.entities;
 import javax.persistence.*;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = QuestionOption.ONE_MORE_VOTE, query = "UPDATE QuestionOption qo SET votes=votes+1 WHERE qo.id IN :list_id")
+})
 public class QuestionOption
 {
+    public static final String ONE_MORE_VOTE = "QuestionOption.OneMoreVote";
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -13,9 +18,6 @@ public class QuestionOption
     private String optionText;
 
     private Integer votes;
-
-    @ManyToOne
-    private Question question;
 
     public Integer getId()
     {
@@ -47,14 +49,16 @@ public class QuestionOption
         this.votes = votes;
     }
 
-    public Question getQuestion()
+    public void oneMoreVote()
     {
-        return question;
-    }
-
-    public void setQuestion(Question question)
-    {
-        this.question = question;
+        if(this.votes == null)
+        {
+            this.votes = 1;
+        }
+        else
+        {
+            this.votes++;
+        }
     }
 
     @Override
@@ -64,7 +68,6 @@ public class QuestionOption
                 "id=" + id +
                 ", optionText='" + optionText + '\'' +
                 ", votes=" + votes +
-                ", question=" + question +
                 '}';
     }
 }

@@ -1,6 +1,6 @@
 package desafio.geofusion.splashpage.services;
 
-import desafio.geofusion.splashpage.dao.QuestionDao;
+import desafio.geofusion.splashpage.dao.QuestionDAO;
 import desafio.geofusion.splashpage.entities.Question;
 import desafio.geofusion.splashpage.entities.QuestionOption;
 import org.apache.logging.log4j.LogManager;
@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Service
@@ -27,7 +26,7 @@ public class DatabasePopulatorService
     private ApplicationContext applicationContext;
 
     @Autowired
-    private QuestionDao questionDao;
+    private QuestionDAO questionDao;
 
     @PostConstruct
     public void populate()

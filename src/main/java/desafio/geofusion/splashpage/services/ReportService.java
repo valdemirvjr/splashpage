@@ -1,6 +1,6 @@
 package desafio.geofusion.splashpage.services;
 
-import desafio.geofusion.splashpage.dao.QuestionDao;
+import desafio.geofusion.splashpage.dao.QuestionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class ReportService
 {
     @Autowired
-    private QuestionDao questionDao;
+    private QuestionDAO questionDao;
 
 }
