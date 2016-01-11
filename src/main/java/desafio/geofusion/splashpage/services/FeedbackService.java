@@ -58,14 +58,5 @@ public class FeedbackService
                 optionDao.update(option);
             }
         }
-
-        LOGGER.info("Nova contagem de votos:");
-
-        Collection<Question> questions = readAllFeedbackQuestions();
-
-        for(Question question : questions)
-        {
-            LOGGER.info(question);
-        }
     }
 }

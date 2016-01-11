@@ -28,6 +28,7 @@ public class EmailService
         feedbackMail.setSubject(subject);
         feedbackMail.setText(msgBody);
 
+
         mailSender.send(feedbackMail);
     }
 }
